@@ -40,7 +40,7 @@ in most cases you'll be able to play the game just fine now adays
 - Download and Install the latest `.apk` from [releases](https://github.com/onettmecha/grapheme/releases/)
 - Have fun and do tell :smile:
 
-#### I recommend you watch the [demo video](#Demo_Video) to get a firm idea of what the game is and how it's played
+#### I recommend you watch the [demo video](#Demo-Video) to get a firm idea of what the game is and how it's played
 
 # Demo Video
 <div align="center">
@@ -53,17 +53,17 @@ in most cases you'll be able to play the game just fine now adays
 You can read the full report [here](https://mega.nz/file/x4QCXDbB#P0JuH8iJiavT81_KToC-gL5Mq3pbBVQxu-OxO1GhI4o)
 - [Introduction](#Introduction)
 - [Technology Review](#Technology_Review)
-- [Game Design](#Game_Design)
+- [Game Design](#Game-Design)
       - [Origin](###Origin)
-      - [Design Development](###Design_Development)
+      - [Design Development](###Design-Development)
       - [Modes](###Modes)
       - [Rules](###Rules)
       - [Elements](###Elements)
-- [Sound Making](#Sound_Making)
-- [3D Models](#3D_Models)
+- [Sound Making](#Sound-Making)
+- [3D Models](#3D-Models)
 - [Implementation](#Implementation)
 - [Conclusion](#Conclusion)
-- [Special Thanks](#Special_Thanks)
+- [Special Thanks](#Special-Thanks)
 
 # Introduction
 Making a game was never an easy task because the ultimate goal is to amuse people, but, building a video game with all graphics and controllers has raised the bar a little higher. The creation of a game that interacts with player’s environment takes our imagination a little further towards the future of entertaining. This project explores a unique game concept where the phone is nothing but a middleman and whoever is playing has to move physically within the room to move objects in the game.
