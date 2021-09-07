@@ -4,7 +4,7 @@
 </p>
 
 # Content 
-[Introduction](README.md#Introduction)
+[Introduction](#Introduction)
 <!-- 1.1 Objective
 2.0 Technology Review
 2.1 Open Source Libraries Litirature Review
