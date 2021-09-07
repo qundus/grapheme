@@ -1,18 +1,11 @@
 <!-- <p align="center">an innovative augmented reality game that stimulates the mind</p> -->
 <p align="center" href="#">
-  <img align="center" height="500" src="resources/UI/Icon/Icon.png" />
+  <img align="center" height="500" src="Resources/ui/Icon/Icon.png" />
 </p>
 
-
-*MMU logo*
-*Subject code*
-
-ID : 1131119325
-Name : Eslam Mohamed Awad Sharif
-
-Content 
-1.0 Introduction
-1.1 Objective
+# Content 
+[Introduction](README.md#Introduction)
+<!-- 1.1 Objective
 2.0 Technology Review
 2.1 Open Source Libraries Litirature Review
 2.2 AR Games Development 
@@ -21,10 +14,10 @@ Content
 3.1 My Game Concept
 3.2 Game Modes
 3.3 Game Rules & Elements
-3.3 Platform
+3.3 Platform -->
 
 
-1.0 Introduction
+# Introduction
 	Humans excell at so many evoloutionary developments and making the computers size smaller with processing power much faster was just the start towards one of the
 	greatest worlds ever, games world.
 	Today, games lead the human entertainment platform of different ages, with high-end graphics and defintion games or Virtual Reality games that emerges the player in a completely new surrounding.
