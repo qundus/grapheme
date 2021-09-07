@@ -51,19 +51,19 @@ in most cases you'll be able to play the game just fine now adays
 
 # Content
 You can read the full report [here](https://mega.nz/file/x4QCXDbB#P0JuH8iJiavT81_KToC-gL5Mq3pbBVQxu-OxO1GhI4o)
-- [Introduction](#Introduction)
-- [Technology Review](#Technology_Review)
-- [Game Design](#Game-Design)\
-      - [Origin](###Origin)\
-      - [Design Development](###Design-Development)\
-      - [Modes](###Modes)\
-      - [Rules](###Rules)\
-      - [Elements](###Elements)
-- [Sound Making](#Sound-Making)
-- [3D Models](#3D-Models)
-- [Implementation](#Implementation)
-- [Conclusion](#Conclusion)
-- [Special Thanks](#Special-Thanks)
+- [Introduction](#introduction)
+- [Technology Review](#technology-review)
+- [Game Design](#game-design)\
+      - [Origin](#origin)\
+      - [Design Development](#design-development)\
+      - [Modes](#modes)\
+      - [Rules](#rules)\
+      - [Elements](#elements)
+- [Sound Making](#sound-making)
+- [3D Models](#3d-models)
+- [Implementation](#implementation)
+- [Conclusion](#conclusion)
+- [Special Thanks](#special-Thanks)
 
 # Introduction
 Making a game was never an easy task because the ultimate goal is to amuse people, but, building a video game with all graphics and controllers has raised the bar a little higher. The creation of a game that interacts with player’s environment takes our imagination a little further towards the future of entertaining. This project explores a unique game concept where the phone is nothing but a middleman and whoever is playing has to move physically within the room to move objects in the game.
