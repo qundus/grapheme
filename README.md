@@ -1,15 +1,49 @@
+<!-- variables -->
+<!-- [disclaimer]: src="" can't use markdown variables as in html tags as attributes placeholders or whatever -->
+
+<!-- logo -->
 <!-- <p align="center">an innovative augmented reality game that stimulates the mind</p> -->
 <p align="center" href="#">
   <img align="center" height="500" src="Resources/ui/Icon/Icon.png" />
 </p>
 
-# Disclaimer
+<!-- badges -->
+<div align="center">
+<a href="https://github.com/ellerbrock/open-source-badges">
+<img src="https://badges.frapsoft.com/os/v1/open-source.png?v=103" />
+</a>
+<a href="https://opensource.org/licenses/mit-license.php">
+<img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" />
+</a>
+</div>
+
+<!-- disclaimer -->
+<br /><img  width="175" src="https://img.shields.io/badge/Disclaimer-blue?style=for-the-badge" />
+
 This project was done in 3 months in 2017 under emmense pressure and stress so take it with a grain of awh.
 
+
+<br /><img width="175" src="https://img.shields.io/badge/How%20To%20Play-blue?style=for-the-badge">
+
+The game has only been compiled as a `.apk` so you it can be played on android only
+
+<br /><img width="100" src="https://img.shields.io/badge/Specs-red?style=for-the-badge">
+- Android version > Kitkat 4.6 (API 19)
+- Quad Core chip-set processor
+- Rear Camera 10MP
+in most cases you'll be able to play the game just fine now adays
+
+<br /><img width="100" src="https://img.shields.io/badge/Steps-red?style=for-the-badge">
+- Download or directly print the [playfield](Resources/game%20elements/GPF%20Official.png)
+- Download and Install the latest `.apk` from releases
+
+I'd recommend you watch the [demo video]() to get a firm idea of what the game is and how it's played
+---
+
 # Content
-[Introduction](#Introduction) /
-[Technology Review](#Technology_Review)
-[Game Concept](#Game_Concept)
+- [Introduction](#Introduction)
+- [Technology Review](#Technology_Review)
+- [Game Concept](#Game_Concept)
 
 <!-- 3.0 Game Designs Imparted with AR
 3.1 My Game Concept
@@ -29,9 +63,20 @@ Back in 2017, it was a little hard to find an open source AR library that fits m
 Eventually i chose Vuforia as it was the easiest to implement with regardless of minor drawbacks due to licensing features and what not.
 
 # Game Concept
-A memory game based on cards where the exciting part relies on how fast the player connects English letters with cards that represent those letters (i.e. a picture of car is the letter 'A'). And in the same sense, the player may be given a set of cards that represent a word and voice recognition will be used to confirm player's answer. Name of the game is still discussable but `Brain Grinder` suits the concept for now. So, for example, if the player was asked to form the word “car”, he/she will have to put the cards in order from left to right to achieve that goal. And on the other hand, the game may show the cards that form word “car” and ask the player to pronounce it, so the gameplay can go either way.
+A memory game based on cards where the exciting part relies on how fast the player connects English letters with cards that represent those letters (i.e. a picture of car is the letter 'A'). 
 
-![Playcard]("Resources/game elements/playcard.jpg")
+And in the same sense, the player may be given a set of cards that represent a word and voice recognition will be used to confirm player's answer. So, for example, if the player was asked to form the word “car”, he/she will have to put the cards in order from left to right to achieve that goal. And on the other hand, the game may show the cards that form word “car” and ask the player to pronounce it, so the gameplay can go either way.
+
+Name of the game is still discussable but `Brain Grinder` was the name that suited the concept but i changed it to `Grapheme`.
+
+<p align="center">
+<img height="265" src="Resources/game elements/playcard.jpg" />
+<img height="350" src="Resources/game elements/GPF Official.png" />
+<br />
+Playcard           Playfield
+</p>
+
+
 
 2.3 Game Engines In Contrast With AR Litiriture Review
 	Unity3D has a direct connection with ARToolkit via free packages which makes it easier to just start development with Unity3D instead of Unreal Engine which also
