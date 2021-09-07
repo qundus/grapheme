@@ -1,1 +1,0 @@
-Source code for the prototype is within unity project inside "Brain Grinder" folder

@@ -1,3 +1,6 @@
+<!-- links -->
+<!-- https://ffmpeg-trim-and-compress.vercel.app to compress mp4 files for github -->
+
 <!-- variables -->
 <!-- [disclaimer]: src="" can't use markdown variables as in html tags as attributes placeholders or whatever -->
 
@@ -37,13 +40,26 @@ in most cases you'll be able to play the game just fine now adays
 - Download or directly print the [playfield](Resources/game%20elements/GPF%20Official.png)
 - Download and Install the latest `.apk` from releases
 
-I'd recommend you watch the [demo video]() to get a firm idea of what the game is and how it's played
+#### I'd recommend you watch the [demo video]() to get a firm idea of what the game is and how it's played
+
+<!-- video in here -->
+
 ---
 
 # Content
+You can read the full report [here](https://mega.nz/file/x4QCXDbB#P0JuH8iJiavT81_KToC-gL5Mq3pbBVQxu-OxO1GhI4o)
 - [Introduction](#Introduction)
 - [Technology Review](#Technology_Review)
-- [Game Concept](#Game_Concept)
+- [Game Design](#Game_Design)
+      - [Origin](###Origin)
+      - [Design Development](###Design_Development)
+      - [Modes](###Modes)
+      - [Rules](###Rules)
+      - [Elements](###Elements)
+- [Sound Making](#Sound_Making)
+- [3D Models](#3D_Models)
+- [Implementation](#Implementation)
+- [Conclusion](#Conclusion)
 
 <!-- 3.0 Game Designs Imparted with AR
 3.1 My Game Concept
@@ -62,88 +78,93 @@ Back in 2017, it was a little hard to find an open source AR library that fits m
 - [IN2AR](https://www.as3gamegears.com/augmented-reality/in2ar/) \
 Eventually i chose Vuforia as it was the easiest to implement with regardless of minor drawbacks due to licensing features and what not.
 
-# Game Concept
+# Game Design
 A memory game based on cards where the exciting part relies on how fast the player connects English letters with cards that represent those letters (i.e. a picture of car is the letter 'A'). 
 
 And in the same sense, the player may be given a set of cards that represent a word and voice recognition will be used to confirm player's answer. So, for example, if the player was asked to form the word “car”, he/she will have to put the cards in order from left to right to achieve that goal. And on the other hand, the game may show the cards that form word “car” and ask the player to pronounce it, so the gameplay can go either way.
 
-Name of the game is still discussable but `Brain Grinder` was the name that suited the concept but i changed it to `Grapheme`.
+> Name of the game is discussable but `Grapheme` suits the concept for now.
 
-<p align="center">
-<img height="265" src="Resources/game elements/playcard.jpg" />
-<img height="350" src="Resources/game elements/GPF Official.png" />
 <br />
-Playcard           Playfield
-</p>
+
+### Origin
+
+Game's proposal had some basic designs to test the development process as i was constrained by the AR library's limits on the free version. Hence the inconsistent designs as they need to fill a certain quota when uploaded to Vuforia's cloud to generate markers and so on.
+
+|letter A|letter B |
+|--------|---------|
+|<img height="280" src="Resources/docs/proposal/resources/Images/LR.png" />|<img height="360" src="Resources/docs/proposal/resources/Images/LA.png" />|
+
+### Design Development
+The proposed designs were simply ugly in a game that focuses on stimulating memory, so, after numerous trials the design were "fixed" or brought up to the level i imagine them by 60%. 
+
+> During the desing of the playfield figure below it hit me that i'm not considering folks with special needs so i designed playcards in the figure below so the game would be played on a table without the physical shift of position that the game requires.
+
+|playcard|playfield|
+|--------|---------|
+|<img height="280" src="Resources/game elements/playcard.jpg" />|<img height="360" src="Resources/game elements/GPF Official.png" />|
+
+### Modes
+<kbd>Solo __collect 100 stars to finish a difficulty level__</kbd> \
+`Frog (Easy)` - Player will be asked to form/pronounce words of 3 - 6 letters. \
+`Ant (Medium)` - Player will be asked to form/pronounce words of 6 letters minimum. \
+`Pigeon (Hard)` - Player will be asked to form/pronounce sentences of 2 - 4 words. \
+`Human (Intelligent)` - Player will be asked to form/pronounce sentences of 4 words minimum. 
 
 
+<kbd>Head To Head</kbd>\
+`Form Cards`
+> Input - Maximum number of words Min (3). \
+> Input - Maximum number of sentences (Min 0). \
+> Input - Timer on/off.
+> Input - Difficulty (Frog - Human)
 
-2.3 Game Engines In Contrast With AR Litiriture Review
-	Unity3D has a direct connection with ARToolkit via free packages which makes it easier to just start development with Unity3D instead of Unreal Engine which also
-	got a direct pluging from ARToolkit but for 99$ so, although, the engine is free to download and use but payment must be done to develop an AR game whichautomatically
-	droops it out of the choices list.
+`Pronounce Words`
+> Input - Maximum number of words Min (3). \
+> Input - Maximum number of sentences (Min 0). \
+> Input - Timer on/off. \
+> Input - Difficulty (Frog - Human).
 
-3.0 Game Designs Imparted with AR
-	Majority of the games in this field requires interaction with the environment of the player with or without some predefined	images [markers], GPS locations and/or 
-	sounds, so making games in that sense has to be a little bit over creative standards.
+`Feeling Intelligent`
+> Randomized set of challenges.
 
-3.1 My Game Concept 
-	A memory game based on cards where the exciting part lies on how fast the player connects english letters with cards that represent those letters (i.e: a picture of car is the letter 'A').
- 	And in the same sense, the player maybe given a set of cards that represent a word and voice recognition will be used to confirm player's answer.
+<kbd>Group VS Group __May or may not be implemented depending on time__</kbd>
+> Choose number of team members (Min 2).\
+> Pick a number up (If Min then 1 or 2).\
+> Randomized gameplay.\
+> Every player will be given parts of the words/sentences to form/pronounce.
 
-3.2 Game Modes
-	- Solo : ( collect 100 stars to finish a difficulity level)
-		- Frog (Easy)  : Player will be asked to form/pronounce words of 3 - 6 letters.
-		- Ant (Medium) : Player will be asked to form/pronounce words of 6 letters minimum.
-		- Pigeon (Hard): Player will be asked to form/pronounce sentences of 2 - 4 words.
-		- Human (Intelligent): Player will be asked to form/pronounce sentences of 4 words minimum.
+### Rules
+- For each correct answer the player wins 1 star, maximum of 3 stars can be won depending on how fast the player forms/pronounces the letter.
+- Every 9 stars the player gets a "Hint" helper.
+- If "Hint" is available, then it can be used by tapping on the card.
+- Player has to organize the cards from left to right to represent the given word.
+- Player has to pronounce the word represented by the cards correctly.
+- A "Timer" will be used in Head To Head or Group gameplay.
 
-	- Head To Head :
-		- Form Cards :
-			# Input : Maximum number of words Min (3).
-			# Input : Maximum number of sentences (Min 0).
-			# Input : Timer on/off.
-			# Input : Difficulity (Frog - Human)
+### ELEMENTS
+- Physical Cards.
+- English words.
+- Voice recognition.
+- Leader board.
+- Timer.
 
-		- Pronounce Words :
-			# Input : Maximum number of words Min (3).
-			# Input : Maximum number of sentences (Min 0).
-			# Input : Timer on/off.
-			# Input : Difficulity (Frog - Human).
+# Sound Making
+I needed to make the players feel energetic and induce the part of the brain that's responsible connecting shapes to letters. This was a great research area for me to introduce some psychology to the game concept. [Magix Music Maker Jam](https://play.google.com/store/apps/details?id=com.magix.android.mmjam&hl=en&gl=us) helped me in fulfilling the need for soundtracks for the game in spite being a bit of a hassle to deal with on the phone.
 
-		- Feeling Intelligent :
-			# Randomized set of challenges.
+<!-- add audio samples -->
 
-	- Group vs Group : (May or may not be implemented depending on time)
-		- Choose number of team members (Min 2).
-		- Pick a number up (If Min then 1 or 2).
-		- Randomized gameplay.
-		- Every player will be given parts of the words/sentences to form/pronounce.
+# 3D Models
+Due to my lack of creativity and short period of time, i created a pipeline for creating, testing and deploying 3d models as mobile friendly assets through [Microsof's 3D Builder](https://www.microsoft.com/en-us/p/3d-builder/9wzdncrfj3t6?activetab=pivot:overviewtab) and [Blender](https://www.blender.org). Any of the static 3d models can either represent any letter of the alphabet in the game or a specific letter for the lower levels so they could adapt to the gameplay.
 
-3.3 Game Rules & Elements
+|letter A|letter B|
+|--------|---------|
+|<img height="280" src="Resources/game elements/playcard.jpg" />|<img height="360" src="Resources/game elements/GPF Official.png" />|
 
-	Rules :
-	- For each correct answer the player wins 1 star, maximum of 3 stars can be won depending on how fast the player forms/pronounces the letter. 
-	- Every 9 stars the player gets a "Hint" helper.
-	- If "Hint" is available, then it can be used by tapping on the card.
-	- Player has to organize the cards from left to right to represent the given word.
-	- Player has to pronounce the word represented by the cards correctly.
-	- A "Timer" will be used in Head To Head or Group gameplay.
+# Implementation
+All the previous components from idea and design to implementation wouldn't be possible without [Unity3D](https://unity.com). Some areas of the development got discontinued to to meet the deadline of the prototype such as the playingcards in the figure below.
 
-	Elements :
-	- Physical Cards.
-	- English words.
-	- Voice recognition.
-	- Leaderboard.
-	- Timer.
+<!-- insert that figure -->
 
- 3.4 Platform & Device Specs
- 	- Android.
- 	- Kitkat 4.6 (API 19).
- 	- Quad Core chip-set processor.
-
-*********************************************** Trials *******************************************
-- Natural Feature Tracking is used with images that are not easy to build as bordered markers.
-- Building NFT images depends on training the camera on few images.
-- Creating texture data(pattern) is easier because the generation of the data text file goes through both training and generating data files of a printed black bordered image.
- 
+# Conclusion
+This was an amazing experience for me as a developer and to explore the seas of modelling and sound making made it even better. The environmental and technical challenges i faced as a student made me question if i can even see the idea to implementation let alone deployment on mobile devices. Therefore, alhamdulelah for all insights, ideas, adaptations, power of mind and will power that i had to finish this project and graduate (class of 2017 [MMU](https://www.mmu.edu.my))
