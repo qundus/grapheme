@@ -4,9 +4,9 @@
 </p>
 
 # Content 
-[Introduction](#Introduction)
-<!-- 1.1 Objective
-2.0 Technology Review
+[1.0 Introduction](#Introduction)
+[1.1 Objective](##Objective)
+<!-- 2.0 Technology Review
 2.1 Open Source Libraries Litirature Review
 2.2 AR Games Development 
 2.3 Game Engines In Contrast With AR Litiriture Review
