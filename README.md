@@ -21,28 +21,31 @@
 </div>
 
 <!-- disclaimer -->
-<br /><img  width="175" src="https://img.shields.io/badge/Disclaimer-blue?style=for-the-badge" />
+<br /><img height="50" src="https://img.shields.io/badge/Disclaimer-grey?style=for-the-badge" />
 
 This project was done in 3 months in 2017 under emmense pressure and stress so take it with a grain of awh.
 
+<!-- specs -->
+<br /><img height="50" src="https://img.shields.io/badge/Specs-red?style=for-the-badge">
 
-<br /><img width="175" src="https://img.shields.io/badge/How%20To%20Play-blue?style=for-the-badge">
-
-The game has only been compiled as a `.apk` so you it can be played on android only
-
-<br /><img width="100" src="https://img.shields.io/badge/Specs-red?style=for-the-badge">
+The game has only been compiled as a `.apk` so it can be played on android only for now.
 - Android version > Kitkat 4.6 (API 19)
 - Quad Core chip-set processor
 - Rear Camera 10MP
 in most cases you'll be able to play the game just fine now adays
 
-<br /><img width="100" src="https://img.shields.io/badge/Steps-red?style=for-the-badge">
-- Download or directly print the [playfield](Resources/game%20elements/GPF%20Official.png)
-- Download and Install the latest `.apk` from releases
+<!-- try it -->
+<br /><img height="50" src="https://img.shields.io/badge/Wanna%20Try%20It%3F-blue?style=for-the-badge">
+- Download or directly print the [playfield](https://user-images.githubusercontent.com/72963129/132380746-5f23a11e-ee97-4369-a949-3f5ed0fe1c6e.png)
+- Download and Install the latest `.apk` from [releases](https://github.com/onettmecha/grapheme/releases/)
+- Have fun and do tell :smile:
 
-#### I'd recommend you watch the [demo video]() to get a firm idea of what the game is and how it's played
+#### I recommend you watch the [demo video](#Demo_Video) to get a firm idea of what the game is and how it's played
 
-<!-- video in here -->
+# Demo Video
+<div align="center">
+  <video loading="lazy" controls src="https://user-images.githubusercontent.com/72963129/132378306-353e3f78-cfd3-4404-b903-719443cd1ba5.mp4"></video>
+</div>
 
 ---
 
@@ -60,13 +63,7 @@ You can read the full report [here](https://mega.nz/file/x4QCXDbB#P0JuH8iJiavT81
 - [3D Models](#3D_Models)
 - [Implementation](#Implementation)
 - [Conclusion](#Conclusion)
-
-<!-- 3.0 Game Designs Imparted with AR
-3.1 My Game Concept
-3.2 Game Modes
-3.3 Game Rules & Elements
-3.3 Platform -->
-
+- [Special Thanks](#Special_Thanks)
 
 # Introduction
 Making a game was never an easy task because the ultimate goal is to amuse people, but, building a video game with all graphics and controllers has raised the bar a little higher. The creation of a game that interacts with player’s environment takes our imagination a little further towards the future of entertaining. This project explores a unique game concept where the phone is nothing but a middleman and whoever is playing has to move physically within the room to move objects in the game.
@@ -93,7 +90,7 @@ Game's proposal had some basic designs to test the development process as i was 
 
 |letter A|letter B |
 |--------|---------|
-|<img height="280" src="Resources/docs/proposal/resources/Images/LR.png" />|<img height="360" src="Resources/docs/proposal/resources/Images/LA.png" />|
+|<img height="250" alt="LA" src="https://user-images.githubusercontent.com/72963129/132382324-369a1047-b2da-4b7a-910a-73fc719ebf3f.png" />|<img height="250" alt="LR" src="https://user-images.githubusercontent.com/72963129/132382312-8371bac5-e910-47eb-8684-00a8ad5785dd.png" />|
 
 ### Design Development
 The proposed designs were simply ugly in a game that focuses on stimulating memory, so, after numerous trials the design were "fixed" or brought up to the level i imagine them by 60%. 
@@ -102,37 +99,42 @@ The proposed designs were simply ugly in a game that focuses on stimulating memo
 
 |playcard|playfield|
 |--------|---------|
-|<img height="280" src="Resources/game elements/playcard.jpg" />|<img height="360" src="Resources/game elements/GPF Official.png" />|
+|<img height="280" alt="playcards" src="https://user-images.githubusercontent.com/72963129/132380716-fa04b31e-b05a-41c0-9ab8-46819e48adc2.jpg" />|<img height="360" alt="GPF Official" src="https://user-images.githubusercontent.com/72963129/132380746-5f23a11e-ee97-4369-a949-3f5ed0fe1c6e.png" />|
+
 
 ### Modes
-<kbd>Solo __collect 100 stars to finish a difficulty level__</kbd> \
-`Frog (Easy)` - Player will be asked to form/pronounce words of 3 - 6 letters. \
-`Ant (Medium)` - Player will be asked to form/pronounce words of 6 letters minimum. \
-`Pigeon (Hard)` - Player will be asked to form/pronounce sentences of 2 - 4 words. \
-`Human (Intelligent)` - Player will be asked to form/pronounce sentences of 4 words minimum. 
+<br /><img height="30" src="https://img.shields.io/badge/Solo-yellow?style=for-the-badge">
 
+ __collect 100 stars to finish a difficulty level__ \
+`Frog (Easy)` Player will be asked to form/pronounce words of 3 - 6 letters. \
+`Ant (Medium)` Player will be asked to form/pronounce words of 6 letters minimum. \
+`Pigeon (Hard)` Player will be asked to form/pronounce sentences of 2 - 4 words. \
+`Human (Intelligent)` Player will be asked to form/pronounce sentences of 4 words minimum. 
 
-<kbd>Head To Head</kbd>\
-`Form Cards`
-> Input - Maximum number of words Min (3). \
-> Input - Maximum number of sentences (Min 0). \
-> Input - Timer on/off.
-> Input - Difficulty (Frog - Human)
+<br /><img height="30" src="https://img.shields.io/badge/Head%20To%20Head-yellow?style=for-the-badge">
 
-`Pronounce Words`
-> Input - Maximum number of words Min (3). \
-> Input - Maximum number of sentences (Min 0). \
-> Input - Timer on/off. \
-> Input - Difficulty (Frog - Human).
+**Form Cards**
+`Input` Maximum number of words Min (3). \
+`Input` Maximum number of sentences (Min 0). \
+`Input` Timer on/off. \
+`Input` Difficulty (Frog - Human) \
 
-`Feeling Intelligent`
-> Randomized set of challenges.
+**Pronounce Words**
+`Input` Maximum number of words Min (3). \
+`Input` Maximum number of sentences (Min 0). \
+`Input` Timer on/off. \
+`Input` Difficulty (Frog - Human).
 
-<kbd>Group VS Group __May or may not be implemented depending on time__</kbd>
-> Choose number of team members (Min 2).\
-> Pick a number up (If Min then 1 or 2).\
-> Randomized gameplay.\
-> Every player will be given parts of the words/sentences to form/pronounce.
+**Feeling Intelligent**
+`Randomized set of challenges`
+
+<br /><img height="30" src="https://img.shields.io/badge/Group%20VS%20Group-yellow?style=for-the-badge">
+
+__May or may not be implemented depending on time__
+- Choose number of team members (Min 2).\
+- Pick a number up (If Min then 1 or 2).\
+- Randomized gameplay.\
+- Every player will be given parts of the words/sentences to form/pronounce.
 
 ### Rules
 - For each correct answer the player wins 1 star, maximum of 3 stars can be won depending on how fast the player forms/pronounces the letter.
@@ -155,11 +157,11 @@ I needed to make the players feel energetic and induce the part of the brain tha
 <!-- add audio samples -->
 
 # 3D Models
-Due to my lack of creativity and short period of time, i created a pipeline for creating, testing and deploying 3d models as mobile friendly assets through [Microsof's 3D Builder](https://www.microsoft.com/en-us/p/3d-builder/9wzdncrfj3t6?activetab=pivot:overviewtab) and [Blender](https://www.blender.org). Any of the static 3d models can either represent any letter of the alphabet in the game or a specific letter for the lower levels so they could adapt to the gameplay.
+Due to the short period of time and the need for 26 unique models to represent the 26 alphabets, [Microsof's 3D Builder](https://www.microsoft.com/en-us/p/3d-builder/9wzdncrfj3t6?activetab=pivot:overviewtab) and [Blender](https://www.blender.org) helped me establish modelling, testing and deploying 3d models as mobile friendly assets in very few trial and error attempts. Any of the static 3d models can either represent any letter of the alphabet in the game or a specific letter for the lower levels so they could adapt to the gameplay.
 
 |letter A|letter B|
 |--------|---------|
-|<img height="280" src="Resources/game elements/playcard.jpg" />|<img height="360" src="Resources/game elements/GPF Official.png" />|
+|<img height="280" alt="Castle" src="https://user-images.githubusercontent.com/72963129/132386806-47aa38ee-2dfb-4383-81f1-31c3d78aff8c.jpg" />|<img height="280" alt="Jaw Hex" src="https://user-images.githubusercontent.com/72963129/132386837-419dbac7-c32d-4362-926f-cbe91180e25a.jpg" />|
 
 # Implementation
 All the previous components from idea and design to implementation wouldn't be possible without [Unity3D](https://unity.com). Some areas of the development got discontinued to to meet the deadline of the prototype such as the playingcards in the figure below.
@@ -168,3 +170,8 @@ All the previous components from idea and design to implementation wouldn't be p
 
 # Conclusion
 This was an amazing experience for me as a developer and to explore the seas of modelling and sound making made it even better. The environmental and technical challenges i faced as a student made me question if i can even see the idea to implementation let alone deployment on mobile devices. Therefore, alhamdulelah for all insights, ideas, adaptations, power of mind and will power that i had to finish this project and graduate (class of 2017 [MMU](https://www.mmu.edu.my))
+
+# Special Thanks
+- [ffmpeg-trim-and-compress](https://github.com/Jezzabell91/ffmpeg-trim-and-compress), a great tool to compress and trim mp4 videos
+- [krita](https://krita.org/en/)
+- [Blender](https://www.blender.org)
