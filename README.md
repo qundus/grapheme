@@ -53,11 +53,11 @@ in most cases you'll be able to play the game just fine now adays
 You can read the full report [here](https://mega.nz/file/x4QCXDbB#P0JuH8iJiavT81_KToC-gL5Mq3pbBVQxu-OxO1GhI4o)
 - [Introduction](#Introduction)
 - [Technology Review](#Technology_Review)
-- [Game Design](#Game-Design)
-      - [Origin](###Origin)
-      - [Design Development](###Design-Development)
-      - [Modes](###Modes)
-      - [Rules](###Rules)
+- [Game Design](#Game-Design)\
+      - [Origin](###Origin)\
+      - [Design Development](###Design-Development)\
+      - [Modes](###Modes)\
+      - [Rules](###Rules)\
       - [Elements](###Elements)
 - [Sound Making](#Sound-Making)
 - [3D Models](#3D-Models)
