@@ -3,14 +3,15 @@
   <img align="center" height="500" src="Resources/ui/Icon/Icon.png" />
 </p>
 
-# Content 
-[1.0 Introduction](#Introduction)
-[1.1 Objective](##Objective)
-<!-- 2.0 Technology Review
-2.1 Open Source Libraries Litirature Review
-2.2 AR Games Development 
-2.3 Game Engines In Contrast With AR Litiriture Review
-3.0 Game Designs Imparted with AR
+# Disclaimer
+This project was done in 3 months in 2017 under emmense pressure and stress so take it with a grain of awh.
+
+# Content
+[Introduction](#Introduction) /
+[Technology Review](#Technology_Review)
+[Game Concept](#Game_Concept)
+
+<!-- 3.0 Game Designs Imparted with AR
 3.1 My Game Concept
 3.2 Game Modes
 3.3 Game Rules & Elements
@@ -18,21 +19,19 @@
 
 
 # Introduction
-	Humans excell at so many evoloutionary developments and making the computers size smaller with processing power much faster was just the start towards one of the
-	greatest worlds ever, games world.
-	Today, games lead the human entertainment platform of different ages, with high-end graphics and defintion games or Virtual Reality games that emerges the player in a completely new surrounding.
-	So, whats next humans?, the answer is Augmented Reality, the exciting relatively new technology that augments virtual elements onto an excisting real-time physical elements.
-	This technology requires nothing more than higher than avereage proccessor power, camera, display, and a supported platform, ever heard of Pokemon GO?.
+Making a game was never an easy task because the ultimate goal is to amuse people, but, building a video game with all graphics and controllers has raised the bar a little higher. The creation of a game that interacts with player’s environment takes our imagination a little further towards the future of entertaining. This project explores a unique game concept where the phone is nothing but a middleman and whoever is playing has to move physically within the room to move objects in the game.
 
-1.1 Objective
-	The objective that was assigned to me is to build an AR game that concludes my own game design, concept and development.
+# Technology Review
+Back in 2017, it was a little hard to find an open source AR library that fits my requirements and the devices i had at hand to construct and deliver this game and its concept. luckily there was 3 libraries and tools that gave this project a glimpse of hope and helped with my graduation project and those are:
+- [Vuforia](https://developer.vuforia.com)
+- [ARToolKit](http://www.artoolkitx.org)
+- [IN2AR](https://www.as3gamegears.com/augmented-reality/in2ar/) \
+Eventually i chose Vuforia as it was the easiest to implement with regardless of minor drawbacks due to licensing features and what not.
 
-2.0 Technology Review
-	At the moment its very compenhansive to grasp all the bits and pieces to develop an application in that framework, never the less, some of the open source 
-	libraries have made this computer vision and imagery proccess easier for the rest of us.
+# Game Concept
+A memory game based on cards where the exciting part relies on how fast the player connects English letters with cards that represent those letters (i.e. a picture of car is the letter 'A'). And in the same sense, the player may be given a set of cards that represent a word and voice recognition will be used to confirm player's answer. Name of the game is still discussable but `Brain Grinder` suits the concept for now. So, for example, if the player was asked to form the word “car”, he/she will have to put the cards in order from left to right to achieve that goal. And on the other hand, the game may show the cards that form word “car” and ask the player to pronounce it, so the gameplay can go either way.
 
-2.1 Open Source Libraries Litirature Review
-	ARtoolkit , IN2AR , Qualcomm and ...
+![Playcard]("Resources/game elements/playcard.jpg")
 
 2.3 Game Engines In Contrast With AR Litiriture Review
 	Unity3D has a direct connection with ARToolkit via free packages which makes it easier to just start development with Unity3D instead of Unreal Engine which also
