@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="GPFOfficialWB" size="100.000000 141.548706" />
+    <ImageTarget name="GPF4" size="100.000000 116.000000" />
+    <ImageTarget name="GPF3" size="100.000000 116.000000" />
+    <ImageTarget name="GPF2" size="100.000000 105.053810" />
+    <ImageTarget name="GPF1" size="100.000000 105.017418" />
+    <ImageTarget name="Grapheme" size="100.000000 141.559021" />
+    <ImageTarget name="Tracking_Features_Test_Shapes" size="100.000000 116.000000" />
+    <ImageTarget name="Tracking_Features_Test_Lines" size="100.000000 116.000000" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,161 @@
+{
+  "$type": "System.Collections.Generic.List`1[[ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+  "$values": [
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Boat",
+      "FixedLetter": "U",
+      "RandomeLetter": "U"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Bulldozer",
+      "FixedLetter": "F",
+      "RandomeLetter": "F"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Cabin House",
+      "FixedLetter": "Z",
+      "RandomeLetter": "Z"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Caged Train",
+      "FixedLetter": "I",
+      "RandomeLetter": "I"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Castle",
+      "FixedLetter": "T",
+      "RandomeLetter": "T"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Chess Pieces",
+      "FixedLetter": "J",
+      "RandomeLetter": "J"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Cubic Cup",
+      "FixedLetter": "M",
+      "RandomeLetter": "M"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Dice",
+      "FixedLetter": "A",
+      "RandomeLetter": "A"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "First Place",
+      "FixedLetter": "Y",
+      "RandomeLetter": "Y"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Glass Trophy",
+      "FixedLetter": "R",
+      "RandomeLetter": "R"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Hotdog",
+      "FixedLetter": "K",
+      "RandomeLetter": "K"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Ice Cream",
+      "FixedLetter": "G",
+      "RandomeLetter": "G"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Jackolantern",
+      "FixedLetter": "V",
+      "RandomeLetter": "V"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Jaw Hex",
+      "FixedLetter": "C",
+      "RandomeLetter": "C"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Logo Block",
+      "FixedLetter": "D",
+      "RandomeLetter": "D"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Magic Wand",
+      "FixedLetter": "B",
+      "RandomeLetter": "B"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Moustache Face",
+      "FixedLetter": "W",
+      "RandomeLetter": "W"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Pyramid Statue",
+      "FixedLetter": "H",
+      "RandomeLetter": "H"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Red Gift",
+      "FixedLetter": "N",
+      "RandomeLetter": "N"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Rocket Ship",
+      "FixedLetter": "P",
+      "RandomeLetter": "P"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Soccer Ball",
+      "FixedLetter": "O",
+      "RandomeLetter": "O"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Sphere Phones",
+      "FixedLetter": "Q",
+      "RandomeLetter": "Q"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Star Trophy",
+      "FixedLetter": "E",
+      "RandomeLetter": "E"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Trophy Bowling",
+      "FixedLetter": "L",
+      "RandomeLetter": "L"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Windmill",
+      "FixedLetter": "X",
+      "RandomeLetter": "X"
+    },
+    {
+      "$type": "ShapeData, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "Name": "Windows XP",
+      "FixedLetter": "S",
+      "RandomeLetter": "S"
+    }
+  ]
+}
