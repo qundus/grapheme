@@ -164,9 +164,10 @@ Due to the short period of time and the need for 26 unique models to represent t
 |<img height="280" alt="Castle" src="https://user-images.githubusercontent.com/72963129/132386806-47aa38ee-2dfb-4383-81f1-31c3d78aff8c.jpg" />|<img height="280" alt="Jaw Hex" src="https://user-images.githubusercontent.com/72963129/132386837-419dbac7-c32d-4362-926f-cbe91180e25a.jpg" />|
 
 # Implementation
-All the previous components from idea and design to implementation wouldn't be possible without [Unity3D](https://unity.com). Some areas of the development got discontinued to to meet the deadline of the prototype such as the playingcards in the figure below.
+All the previous components from idea and design to implementation wouldn't be possible without [Unity3D](https://unity.com). Some areas of the development got discontinued such as the playingcards in the figure below in-order to meet the deadline of the prototype.
 
-<!-- insert that figure -->
+![Problem 3](https://user-images.githubusercontent.com/72963129/132388022-12b22133-5467-4760-acb0-4f56e8771838.PNG)
+
 
 # Conclusion
 This was an amazing experience for me as a developer and to explore the seas of modelling and sound making made it even better. The environmental and technical challenges i faced as a student made me question if i can even see the idea to implementation let alone deployment on mobile devices. Therefore, alhamdulelah for all insights, ideas, adaptations, power of mind and will power that i had to finish this project and graduate (class of 2017 [MMU](https://www.mmu.edu.my))
