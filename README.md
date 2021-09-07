@@ -7,7 +7,7 @@
 <!-- logo -->
 <!-- <p align="center">an innovative augmented reality game that stimulates the mind</p> -->
 <p align="center" href="#">
-  <img align="center" height="500" src="Resources/ui/Icon/Icon.png" />
+  <img align="center" height="500" src="https://user-images.githubusercontent.com/72963129/132376857-0cc8e645-4484-4f63-ab35-fda4343a482b.png" />
 </p>
 
 <!-- badges -->
