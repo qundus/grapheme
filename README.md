@@ -23,7 +23,7 @@
 <!-- disclaimer -->
 <br /><img height="50" src="https://img.shields.io/badge/Disclaimer-grey?style=for-the-badge" />
 
-This project was done in 3 months in 2017 under emmense pressure and stress so take it with a grain of awh.
+This project was done in 3 months in 2017 under emmense pressure and stress so take it with a grain of awe.
 
 <!-- specs -->
 <br /><img height="50" src="https://img.shields.io/badge/Specs-red?style=for-the-badge">
